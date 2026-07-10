@@ -316,49 +316,54 @@ export default function Navbar() {
               </div>
 
               <div className="divide-y divide-gray-100 border-t border-gray-100">
-                <a
-                  href="/"
+                <NavLink
+                  onClick={() => setMobileOpen(false)}
+                  to="/"
                   className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
                 >
                   home
-                </a>
-                <a
-                  href="/services/creative-ideas"
+                </NavLink>
+                <NavLink
+                  onClick={() => setMobileOpen(false)}
+                  to="/services/creative-ideas"
                   className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
                 >
                   Services
-                </a>
-                <a
-                  href="/blog"
+                </NavLink>
+                <NavLink
+                  onClick={() => setMobileOpen(false)}
+                  to="/blog"
                   className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
                 >
                   Blog
-                </a>
-                <a
-                  href="/contact"
+                </NavLink>
+                <NavLink
+                  onClick={() => setMobileOpen(false)}
+                  to="/contact"
                   className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
                 >
                   Contact Us
-                </a>
-                <a
-                  href="/about"
+                </NavLink>
+                <NavLink
+                  onClick={() => setMobileOpen(false)}
+                  to="/about"
                   className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
                 >
                   About us
-                </a>
+                </NavLink>
               </div>
 
               <div className="mt-10 flex items-center gap-6">
                 {socialIcons.map((icon, idx) => (
-                <a
-                  key={idx}
-                  href={icon.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cursor-pointer"
-                >
-                  <SocialDot label={icon.label} 
-                  image={icon.image} /></a>
+                  <a
+                    key={idx}
+                    href={icon.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer"
+                  >
+                    <SocialDot label={icon.label} image={icon.image} />
+                  </a>
                 ))}
               </div>
             </div>
