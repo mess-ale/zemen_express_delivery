@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/zemen_express_delivery/",
   plugins: [react(), tailwindcss()],
+  base: "/zemen_express_delivery/",
 });
