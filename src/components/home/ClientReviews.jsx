@@ -91,7 +91,7 @@ export default function ClientReviews() {
         </div>
 
         {/* Main card */}
-        <div className="mt-12 overflow-hidden rounded-3xl bg-white shadow-sm h-[590px]">
+        <div className="mt-12 overflow-hidden rounded-3xl bg-white shadow-sm">
           <div className="grid lg:grid-cols-2 h-full">
             {/* Left image placeholder */}
             <div className="bg-[#210c81]">
