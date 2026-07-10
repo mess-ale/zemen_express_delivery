@@ -304,22 +304,26 @@ export default function Navbar() {
 
             <div className="px-6 pb-8">
               <div className="flex items-center gap-3 pb-6">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#210c81] text-white">
-                  ↗
-                </div>
-                <div className="leading-tight">
-                  <div className="text-2xl font-extrabold text-[#1F2A30]">
-                    Nexora
+                <NavLink to="/" className="flex items-center gap-3">
+                  <div>
+                    <img
+                      src={logo}
+                      // alt={label}
+                      className="h-14 w-28.1 object-cover bg-white"
+                    />
                   </div>
-                  <div className="-mt-1 text-sm text-[#5C6B73]">
-                    Business Solution
-                  </div>
-                </div>
+                </NavLink>
               </div>
 
               <div className="divide-y divide-gray-100 border-t border-gray-100">
                 <a
-                  href="#services"
+                  href="/"
+                  className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
+                >
+                  home
+                </a>
+                <a
+                  href="/services/creative-ideas"
                   className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
                 >
                   Services
@@ -336,11 +340,25 @@ export default function Navbar() {
                 >
                   Contact Us
                 </a>
+                <a
+                  href="/about"
+                  className="flex items-center justify-between py-4 text-[15px] font-semibold text-[#1F2A30]"
+                >
+                  About us
+                </a>
               </div>
 
               <div className="mt-10 flex items-center gap-6">
                 {socialIcons.map((icon, idx) => (
-                  <SocialDot key={idx} label={icon.label} image={icon.image} />
+                <a
+                  key={idx}
+                  href={icon.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
+                  <SocialDot label={icon.label} 
+                  image={icon.image} /></a>
                 ))}
               </div>
             </div>

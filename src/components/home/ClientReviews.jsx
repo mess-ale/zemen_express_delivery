@@ -91,18 +91,18 @@ export default function ClientReviews() {
         </div>
 
         {/* Main card */}
-        <div className="mt-12 overflow-hidden rounded-3xl bg-white shadow-sm h-[400px]">
+        <div className="mt-12 overflow-hidden rounded-3xl bg-white shadow-sm h-[590px]">
           <div className="grid lg:grid-cols-2 h-full">
             {/* Left image placeholder */}
-            <div className="bg-gray-200">
+            <div className="bg-[#210c81]">
               {/* Replace with <img /> later */}
               <img src={active.image} className="h-[280px] w-full sm:h-[360px] lg:h-full" />
             </div>
 
             {/* Right quote panel */}
-            <div className="bg-[#210c81] px-8 py-10 text-white sm:px-10 sm:py-12">
-                <p className="text-xl leading-9 sm:text-2xl">{active.quote}</p>
-                <p className="text-xl leading-9 sm:text-2xl py-10 sm:py-12">{active.name}</p>
+            <div className="bg-[#210c81] px-8 py-10 text-white sm:px-10 sm:py-10">
+                <p className="text-xl sm:leading-8 lg:leading-9 sm:text-1xl">{active.quote}</p>
+                <p className="text-xl sm:leading-8 lg:leading-9 sm:text-1xl py-10 sm:py-8">{active.name}</p>
             </div>
           </div>
         </div>
