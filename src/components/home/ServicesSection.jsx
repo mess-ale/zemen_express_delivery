@@ -36,7 +36,7 @@ export default function ServicesSection() {
     [],
   );
 
-  const DOTS = 4;
+  const DOTS = 5;
   const [activeDot, setActiveDot] = useState(0);
 
   // Duplicate list so dot 3 can show [3,0,1] naturally
@@ -46,15 +46,26 @@ export default function ServicesSection() {
   const itemRefs = useRef([]);
 
   // Scroll to the active card (one-card step behavior)
-  useEffect(() => {
-    const el = itemRefs.current[activeDot];
-    if (!el) return;
-    el.scrollIntoView({
-      behavior: "smooth",
-      inline: "start",
-      block: "nearest",
-    });
-  }, [activeDot]);
+  // useEffect(() => {
+  //   const el = itemRefs.current[activeDot];
+  //   if (!el) return;
+  //   el.scrollIntoView({
+  //     behavior: "smooth",
+  //     inline: "start",
+  //     block: "nearest",
+  //   });
+  // }, [activeDot]);
+useEffect(() => {
+  const container = scrollerRef.current;
+  const el = itemRefs.current[activeDot];
+
+  if (!container || !el) return;
+
+  container.scrollTo({
+    left: el.offsetLeft,
+    behavior: "smooth",
+  });
+}, [activeDot]);
 
   return (
     <section className="bg-white py-16 md:py-24" id="services">

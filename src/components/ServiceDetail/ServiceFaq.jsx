@@ -3,24 +3,20 @@ import { ChevronDown } from "lucide-react";
 
 const DEFAULT_FAQS = [
   {
-    q: "01. What services/products do you offer?",
-    a: "Neque parturient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet vivamus est aliquam euismod necort quam convallis ornare justo service visionary sources unleash online.",
+    q: "01. Parcel Delivery:",
+    a: "Seamless parcel services to over 20 major Ethiopian cities, including Mekele, Bahir Dar, Dire Dawa, Hawassa, Jimma, and more.",
   },
   {
-    q: "02. Where i can find my business growth result?",
-    a: "Neque parturient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet vivamus est aliquam euismod necort quam convallis ornare justo service visionary sources unleash online.",
+    q: "02. Affordable Rates:",
+    a: "Starting from just 250 Birr, with special discounts for books and consumable items.",
   },
   {
-    q: "03. Did you get any business consultant?",
-    a: "Neque parturient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet vivamus est aliquam euismod necort quam convallis ornare justo service visionary sources unleash online.",
+    q: "03. Reliable Receipts:",
+    a: "Ideal for official offices and medical laboratories requiring formal invoices for package handling.",
   },
   {
-    q: "04. Do you need any business investment policy?",
-    a: "Neque parturient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet vivamus est aliquam euismod necort quam convallis ornare justo service visionary sources unleash online.",
-  },
-  {
-    q: "04. Do you need any business investment policy?",
-    a: "Neque parturient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet vivamus est aliquam euismod necort quam convallis ornare justo service visionary sources unleash online.",
+    q: "04. Our Service Areas",
+    a: "We cover a wide network of destinations, including but not limited to: Mekele, Axum, Shire, Dessie, Kombolcha, Bahir Dar, Gondar, Lalibela, Hawassa, Arbaminch, Jinka, Wolaita Sodo, Jimma, Gambela, Asossa, Hossaena, Shashemene, Harar, Dire Dawa, Jigjiga, and Gode.",
   },
 ];
 
@@ -29,14 +25,12 @@ export default function ServiceFaq({ faqs = DEFAULT_FAQS }) {
 
   return (
     <section className="mt-14">
-      <h3 className="text-2xl font-extrabold text-[#1F2A30]">
-        Popular Question
-      </h3>
+      <h3 className="text-2xl font-extrabold text-[#1F2A30]">Our Services</h3>
 
       <p className="mt-4 max-w-3xl text-sm leading-7 text-black/60">
-        Conveniently predominate revolutionary quality vectors through
-        future-proof manufactured products. Objectively envisioner high in
-        convergence through collaborative networks.
+        Reliable, affordable, and professional parcel delivery connecting you to
+        over 20 major cities across Ethiopia with formal invoicing for your
+        peace of mind.
       </p>
 
       <div className="mt-8 space-y-4">

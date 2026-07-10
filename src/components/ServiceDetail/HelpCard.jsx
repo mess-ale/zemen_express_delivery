@@ -5,9 +5,10 @@ export default function HelpCard() {
         Need Help? We Are Here To Help You
       </h4>
 
-      <button className="mt-6 w-full rounded-xl bg-white py-3 text-sm font-semibold text-[#0F1A24]">
+            <a href="/contact">
+      <button className="mt-6 w-full rounded-xl bg-[#ff7700] py-3 text-sm font-semibold text-[#ffffff] hover:text-[#0f0f0f] cursor-pointer">
         Contact Us
-      </button>
+      </button></a>
     </div>
   );
 }

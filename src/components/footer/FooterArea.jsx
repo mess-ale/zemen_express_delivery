@@ -80,11 +80,11 @@ export default function FooterArea() {
                 <div className="mt-6 space-y-4 text-sm text-white/85">
                   <div className="flex items-center justify-between">
                     <span className="font-semibold">Week Days</span>
-                    <span className="text-white/70">01:30 - 11.00</span>
+                    <span className="text-white/70">07:30AM - 4:30PM</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="font-semibold">Saturday</span>
-                    <span className="text-white/70">01:30 - 12:30</span>
+                    <span className="text-white/70">07:30AM - 1:30PM</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="font-semibold">Sunday</span>

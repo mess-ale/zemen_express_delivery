@@ -133,7 +133,7 @@ export default function Navbar() {
               <span className="grid h-6 w-6 place-items-center rounded bg-white/10">
                 <Clock className="h-4 w-4 text-white/90" />
               </span>
-              <span>Working: 7:30am - 4:30pm</span>
+              <span>Working: 7:30AM - 4:30PM</span>
             </div>
           </div>
 
