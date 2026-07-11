@@ -1,5 +1,5 @@
 import image1 from "../../assets/images/cover.jpg";
-import image2 from "../../assets/images/hero2.png";
+import image2 from "../../assets/images/vision.jpg";
 import icon from "../../assets/icons/developing.png";
 import { Play } from "lucide-react";
 

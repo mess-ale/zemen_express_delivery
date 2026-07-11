@@ -2,7 +2,7 @@ import ServiceFeatureGrid from "./ServiceFeatureGrid";
 import ServiceSteps from "./ServiceSteps";
 import ServiceFaq from "./ServiceFaq";
 
-import featuredImg from "../../assets/images/hero3.png";
+import featuredImg from "../../assets/images/service2.jpg";
 
 export default function ServiceDetailContent() {
   return (

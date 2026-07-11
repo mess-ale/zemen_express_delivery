@@ -139,12 +139,12 @@ export default function Navbar() {
 
           <div className="flex items-center gap-6 text-sm">
             <nav className="flex items-center gap-6">
-              <a className="opacity-90 hover:opacity-100" href="/blog">
-                Company news
-              </a>
-              <a className="opacity-90 hover:opacity-100" href="/contact">
-                Contact us
-              </a>
+              <NavLink to="/blog">
+                <a className="opacity-90 hover:opacity-100">Company news</a>
+              </NavLink>
+              <NavLink to="/contact">
+                <a className="opacity-90 hover:opacity-100">Contact us</a>
+              </NavLink>
             </nav>
 
             <span className="h-4 w-px bg-white/20" />

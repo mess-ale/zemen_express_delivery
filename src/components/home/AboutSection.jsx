@@ -1,6 +1,6 @@
 import { Check, PhoneCall } from "lucide-react";
 import hero1 from "../../assets/images/hero1.png";
-import hero2 from "../../assets/images/hero2.png";
+import hero2 from "../../assets/images/delivery.jpg";
 
 /**
  * AboutSection
@@ -20,7 +20,7 @@ export default function AboutSection() {
           </div>
 
           {/* Experience badge */}
-          <div className="absolute left-0 top-24 -translate-x-6 rounded-2xl bg-[#210c81] px-8 py-8 text-white shadow-lg sm:-translate-x-10">
+          <div className="absolute left-0 top-24 -translate-x-6 rounded-2xl bg-[#ffffff] px-8 py-8 text-[#210c81] shadow-lg sm:-translate-x-10">
             <div className="text-5xl font-extrabold leading-none">2+</div>
             <div className="mt-4 text-sm font-semibold">Year of experience</div>
           </div>

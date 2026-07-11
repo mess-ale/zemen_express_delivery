@@ -1,4 +1,4 @@
-import bgImage from "../../assets/images/hero2.png";
+import bgImage from "../../assets/images/service.jpg";
 
 /**
  * CtaBanner

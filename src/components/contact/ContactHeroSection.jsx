@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-import contactImg from "../../assets/images/hero3.png";
+import contactImg from "../../assets/images/maps.jpg";
 
 /**
  * ContactHeroSection
