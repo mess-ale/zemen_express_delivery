@@ -21,7 +21,8 @@ export default function BlogDetailArticle({ post }) {
       </h1>
 
       <p className="mt-3 text-sm leading-7 text-black/55">
-        Fast, reliable logistics are the backbone of thriving modern enterprises and seamless personal connections. At Zemen Express Delivery, we have re-engineered the standard courier framework to introduce a swift, secure, and highly affordable logistics solution spanning across Ethiopia. By leveraging real-time tracking systems and highly optimized transit routes, we ensure your critical packages reach their destinations without a single moment of unnecessary delay.
+        Fast, re
+        liable logistics are the backbone of thriving modern enterprises and seamless personal connections. At Zemen Express Delivery, we have re-engineered the standard courier framework to introduce a swift, secure, and highly affordable logistics solution spanning across Ethiopia. By leveraging real-time tracking systems and highly optimized transit routes, we ensure your critical packages reach their destinations without a single moment of unnecessary delay.
       </p>
 
       {/* Body */}
