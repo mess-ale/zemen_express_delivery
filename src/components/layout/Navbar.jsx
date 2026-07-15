@@ -11,7 +11,7 @@ import logo from "../../assets/logo/logo.png";
 
 const socialIcons = [
   { label: "facebook Icon", image: facebookIcon, url: "https://rb.gy/rdxx16" },
-  { label: "telegram Icon", image: TelegramIcon, url: "https://t.me/zeemen" },
+  { label: "telegram Icon", image: TelegramIcon, url: "https://t.me/ZemenED" },
   {
     label: "instagram Icon",
     image: instagramIcon,

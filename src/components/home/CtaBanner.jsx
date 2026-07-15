@@ -1,4 +1,5 @@
 import bgImage from "../../assets/images/service.jpg";
+import { NavLink } from "react-router-dom";
 
 /**
  * CtaBanner
@@ -31,13 +32,13 @@ export default function CtaBanner() {
               Call us anytime at 7273.
             </h3>
 
-            <a href="/contact">
+            <NavLink to="/contact">
             <button
               type="button"
               className="h-14 w-fit rounded-full bg-[#ff7700] px-10 text-sm font-semibold text-[#ffffff] hover:text-[#000000] cursor-pointer"
             >
               Contact Us
-            </button></a>
+            </button></NavLink>
           </div>
         </div>
       </div>

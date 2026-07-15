@@ -5,10 +5,8 @@ import ClientReviews from "../components/home/ClientReviews";
 import CtaBanner from "../components/home/CtaBanner";
 import HeroSlider from "../components/home/HeroSlider";
 import RecentBlogSection from "../components/home/RecentBlogSection";
-import RequestQuote from "../components/home/RequestQuote";
 import ServicesSection from "../components/home/ServicesSection";
 import StatsStrip from "../components/home/StatsStrip";
-import TeamSection from "../components/home/TeamSection";
 import TrustedClients from "../components/home/TrustedClients";
 
 export default function Home() {
@@ -20,13 +18,10 @@ export default function Home() {
       <CtaBanner />
       <BusinessGlobalSection />
       <StatsStrip />
-      {/* <TrustedClients /> */}
-      {/* <TeamSection /> */}
       <ClientReviews />
-      {/* <RequestQuote /> */}
+      <TrustedClients />
       <RecentBlogSection />
       <FooterArea />
-      {/* next sections go here */}
     </div>
   );
 }

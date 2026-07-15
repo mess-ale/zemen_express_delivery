@@ -2,6 +2,7 @@ import image1 from "../../assets/images/cover.jpg";
 import image2 from "../../assets/images/vision.jpg";
 import icon from "../../assets/icons/developing.png";
 import { Play } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 /**
  * BusinessGlobalSection
@@ -38,13 +39,13 @@ Vision and Mission        </div>
           {/* Buttons */}
           <div className="mt-12 flex items-center gap-6">
             
-            <a href="/contact">
+            <NavLink to="contact">
             <button
               type="button"
               className="h-14 rounded-2xl bg-[#ff7700] px-10 text-sm font-semibold text-white hover:text-black/85 cursor-pointer"
             >
               Contact Us
-            </button></a>
+            </button></NavLink>
 
             <button
               type="button"

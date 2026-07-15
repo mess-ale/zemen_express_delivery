@@ -3,6 +3,7 @@ import hero1 from "../../assets/images/hero1.png";
 import hero2 from "../../assets/images/hero2.png";
 import hero3 from "../../assets/images/hero3.png";
 import { ChevronLeft, ChevronRight, Pointer } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 /**
  * HeroSlider
@@ -88,11 +89,11 @@ export default function HeroSlider() {
             </p>
 
             <div className="mt-8">
-              <a href="/contact" >
+              <NavLink to="/contact">
                 <button className="inline-flex h-12 items-center justify-center rounded-full bg-[#ff7700] px-8 text-md font-semibold text-[#ffffff] hover:text-[#0f0f0f] cursor-pointer">
                   Contact us
                 </button>
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

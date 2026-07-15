@@ -30,37 +30,59 @@ export default function FooterDarkSimple() {
         <div className="grid gap-12 lg:grid-cols-3 lg:gap-20">
           {/* Brand */}
           <div>
-              <NavLink to="/" className="flex items-center gap-3">
-                <div>
-                  <img
-                    src={logo}
-                    // alt={label}
-                    className="h-14 w-28.1 object-cover"
-                  />
-                </div>
-              </NavLink>
+            <NavLink to="/" className="flex items-center gap-3">
+              <div>
+                <img
+                  src={logo}
+                  // alt={label}
+                  className="h-14 w-28.1 object-cover"
+                />
+              </div>
+            </NavLink>
 
             <p className="mt-6 max-w-sm text-sm leading-6 text-white/55">
-              Stay Connected Follow us on social media to stay updated and get in touch
+              Stay Connected Follow us on social media to stay updated and get
+              in touch
             </p>
 
             {/* Social icons */}
             <div className="mt-7 flex items-center gap-3">
-              <SocialIcon href="#" label="Facebook">
-                <img src={facebookIcon} className="h-7 w-7" />
-              </SocialIcon>
-              <SocialIcon href="#" label="Twitter">
-                <img src={TelegramIcon} className="h-7 w-7" />
-              </SocialIcon>
-              <SocialIcon href="#" label="LinkedIn">
-                <img src={TiktokIcon} className="h-7 w-7" />
-              </SocialIcon>
-              <SocialIcon href="#" label="Instagram">
-                <img src={instagramIcon} className="h-7 w-7" />
-              </SocialIcon>
-              <SocialIcon href="#" label="LinkedIn 2">
-                <img src={TiktokIcon} className="h-7 w-7" />
-              </SocialIcon>
+              <a
+                href="https://rb.gy/rdxx16"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SocialIcon label="Facebook">
+                  <img src={facebookIcon} className="h-7 w-7" />
+                </SocialIcon>
+              </a>
+              <a
+                href="https://t.me/ZemenED"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SocialIcon label="Facebook">
+                  <img src={TelegramIcon} className="h-7 w-7" />
+                </SocialIcon>
+              </a>
+              <a
+                href="https://rb.gy/xdzgec"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SocialIcon label="Facebook">
+                  <img src={instagramIcon} className="h-7 w-7" />
+                </SocialIcon>
+              </a>
+              <a
+                href="http://www.tiktok.com/@zemen_express"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SocialIcon label="Facebook">
+                  <img src={TiktokIcon} className="h-7 w-7" />
+                </SocialIcon>
+              </a>
             </div>
           </div>
 
@@ -75,13 +97,12 @@ export default function FooterDarkSimple() {
             </div>
 
             <div className="mt-7 grid gap-6 sm:grid-cols-2">
-
               <ul className="space-y-3 text-sm text-white/70">
-                <FooterArrowLink to="/Home" label="Home Page" />
-                <FooterArrowLink to="/Service" label="Service" />
+                <FooterArrowLink to="/" label="Home Page" />
+                <FooterArrowLink to="/services/creative-ideas" label="Service" />
                 <FooterArrowLink to="/contact" label="Contact Us" />
                 <FooterArrowLink to="/about" label="About Us" />
-                <FooterArrowLink to="/Privacy Policy" label="Privacy Policy" />
+                <FooterArrowLink to="/" label="Privacy Policy" />
               </ul>
 
               <ul className="space-y-2 text-sm text-white/70">
@@ -120,19 +141,19 @@ export default function FooterDarkSimple() {
 
             <div className="mt-8 space-y-7">
               <ContactLine
-                  icon={<Phone className="h-5 w-5" />}
-                  title="Call Us 24/7"
-                  value="(+251) 96 121 3333"
+                icon={<Phone className="h-5 w-5" />}
+                title="Call Us 24/7"
+                value="(+251) 96 121 3333"
               />
               <ContactLine
-                  icon={<Mail className="h-5 w-5" />}
-                  title="Work with us"
-                  value="info@zemenexpress.com"
+                icon={<Mail className="h-5 w-5" />}
+                title="Work with us"
+                value="info@zemenexpress.com"
               />
               <ContactLine
-                  icon={<MapPin className="h-5 w-5" />}
-                  title="Our Locations"
-                  value="1. ሀይሌ ጋርመንት 2. አዲሱ ገበያ 3. እስጢፋኖስ 4. ላምበረት 5. ሜክሲኮ 6. ፒያሳ 7. ጀሞ"
+                icon={<MapPin className="h-5 w-5" />}
+                title="Our Locations"
+                value="1. ሀይሌ ጋርመንት 2. አዲሱ ገበያ 3. እስጢፋኖስ 4. ላምበረት 5. ሜክሲኮ 6. ፒያሳ 7. ጀሞ"
               />
             </div>
           </div>
@@ -145,10 +166,10 @@ export default function FooterDarkSimple() {
           <p>Zemen - Copyright 2026. All rights reserved.</p>
 
           <div className="flex items-center gap-5">
-            <Link to="/privacy" className="hover:text-white">
+            <Link to="/" className="hover:text-white">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="hover:text-white">
+            <Link to="/" className="hover:text-white">
               Terms &amp; Condition
             </Link>
           </div>

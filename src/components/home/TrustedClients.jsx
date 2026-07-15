@@ -1,9 +1,9 @@
-import client1 from "../../assets/clients/1.webp";
-import client2 from "../../assets/clients/2.webp";
-import client3 from "../../assets/clients/3.webp";
-import client4 from "../../assets/clients/4.webp";
-import client5 from "../../assets/clients/5.webp";
-import client6 from "../../assets/clients/6.webp";
+import client1 from "../../assets/clients/Ethiopost.png";
+import client2 from "../../assets/clients/Hope.png";
+import client3 from "../../assets/clients/icl.png";
+import client4 from "../../assets/clients/saf.png";
+import client5 from "../../assets/clients/tech26.png";
+import client6 from "../../assets/clients/habte.png";
 
 
 
@@ -14,7 +14,7 @@ import client6 from "../../assets/clients/6.webp";
  * - Responsive wrap on small screens
  */
 export default function TrustedClients() {
-    const logos = [client1, client2, client3, client4, client5, client6]
+    const logos = [ client4, client1, client2, client3, client6, client5]
 //   const logos = [
 //     { name: "Toy Jesh", image: client1 },
 //     { name: "waleon", image: client2 },
@@ -29,11 +29,11 @@ export default function TrustedClients() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Top divider + label */}
         <div className="flex items-center justify-center gap-6">
-          <span className="hidden h-px w-[40%] bg-black/70 md:block" />
-          <span className="text-xs font-semibold tracking-[0.18em] text-[#1F2A30]">
+          <span className="hidden h-px w-[40%] bg-[#1d0b6c] md:block" />
+          <span className="text-xs font-semibold tracking-[0.18em] text-[#210c81]">
             OUR TRUSTED CLIENTS
           </span>
-          <span className="hidden h-px w-[40%] bg-black/70 md:block" />
+          <span className="hidden h-px w-[40%] bg-[#18095b] md:block" />
         </div>
 
         {/* Logos */}

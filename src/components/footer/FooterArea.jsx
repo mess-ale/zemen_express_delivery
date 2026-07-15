@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Mail, MapPin, Phone, Send, ArrowRight } from "lucide-react";
 
 /**
@@ -92,11 +92,11 @@ export default function FooterArea() {
                   </div>
                 </div>
 
-                <a href="/contact">
+                <NavLink to="/contact">
                   <button className="mt-8 bg-[#ff7700] rounded-xl px-7 py-3 text-sm font-semibold text-[#ffffff] hover:text-black/85 cursor-pointer shadow-sm">
                     Contact Us
                   </button>
-                </a>
+                </NavLink>
               </div>
 
               {/* Quick Links (middle) */}
@@ -106,11 +106,11 @@ export default function FooterArea() {
 
                 <div className="mt-6 grid gap-6 sm:grid-cols-2">
                   <ul className="space-y-3 text-sm text-white/70">
-                    <FooterLink to="/Home" label="Home Page" />
-                    <FooterLink to="/Service" label="Service" />
+                    <FooterLink to="/" label="Home Page" />
+                    <FooterLink to="/services/creative-ideas" label="Service" />
                     <FooterLink to="/contact" label="Contact Us" />
                     <FooterLink to="/about" label="About Us" />
-                    <FooterLink to="/Privacy Policy" label="Privacy Policy" />
+                    <FooterLink to="/" label="Privacy Policy" />
                   </ul>
 
                   <ul className="space-y-2 text-sm text-white/70">

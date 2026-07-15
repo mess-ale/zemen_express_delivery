@@ -9,7 +9,6 @@ export default function Projects() {
     <main>
       <ProjectsHero />
       <AboutSection />
-      {/* <ProjectsGridSection /> */}
       <NewsletterCta />
       <FooterDarkSimple />
     </main>

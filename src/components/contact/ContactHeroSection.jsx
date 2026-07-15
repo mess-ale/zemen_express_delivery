@@ -99,8 +99,8 @@ export default function ContactHeroSection() {
                     <span>I agree to the Terms &amp; Conditions</span>
                   </label>
 
-                  <a href="/contact">
-                    <button className="mt-2 inline-flex h-12 items-center justify-center rounded-xl bg-[#ff7700] px-8 text-sm font-semibold text-white shadow-sm transition hover:text-[#172126]">
+                  <a>
+                    <button className="mt-2 cursor-pointer inline-flex h-12 items-center justify-center rounded-xl bg-[#ff7700] px-8 text-sm font-semibold text-white shadow-sm transition hover:text-[#172126]">
                       Get In Touch
                     </button>
                   </a>
