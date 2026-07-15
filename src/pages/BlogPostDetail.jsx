@@ -5,13 +5,12 @@ import heroImg from "../assets/images/hero3.png"; // replace with your banner im
 import NewsletterCta from "../components/contact/NewsletterCta";
 import FooterDarkSimple from "../components/contact/FooterDarkSimple";
 
-export default function BlogPostDetail() {
-  const demoPost = {
-    title: "Profitable business makes your profit",
-    author: "David Smith",
-    date: "15 Jan, 2023",
-    category: "Business Solution",
-  };
+export default function BlogPostDetail() {const demoPost = {
+  title: "How we guarantee intercity delivery in less than 24 hours",
+  author: "Kirubel Bewuket",
+  date: "15 Jul, 2026",
+  category: "Logistics Solutions",
+};
 
   return (
     <main className="bg-white">

@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import BlogCard from "./BlogCard";
-import blogImg from "../../assets/images/hero3.png";
+import blogImg1 from "../../assets/blog/blog1.png";
+import blogImg2 from "../../assets/blog/blog2.png";
+import blogImg3 from "../../assets/blog/blog3.png";
+import blogImg4 from "../../assets/blog/blog4.png";
+import blogImg5 from "../../assets/blog/blog5.png";
+import blogImg6 from "../../assets/blog/blog6.png";
 
 /**
  * RecentBlogSection
@@ -16,21 +21,21 @@ export default function RecentBlogSection() {
         category: "Logistics Insights",
         author: "Zemen Team",
         title: "How to ensure your parcels arrive in under 24 hours",
-        image: blogImg,
+        image: blogImg1,
       },
       {
         slug: "building-trust-in-delivery",
         category: "Logistics Insights",
         author: "Zemen Team",
         title: "Building a reliable delivery brand in Ethiopia",
-        image: blogImg,
+        image: blogImg2,
       },
       {
         slug: "optimizing-delivery-routes",
         category: "Logistics Insights",
         author: "Zemen Team",
         title: "Transforming how we move goods across intercity routes",
-        image: blogImg,
+        image: blogImg3,
       },
       // Extra item(s) to make the slider feel continuous
       {
@@ -38,21 +43,21 @@ export default function RecentBlogSection() {
         category: "Logistics Insights",
         author: "Zemen Team",
         title: "Best practices for shipping valuable goods safely",
-        image: blogImg,
+        image: blogImg4,
       },
       {
         slug: "scaling-your-logistics",
         category: "Logistics Insights",
         author: "Zemen Team",
         title: "Strategy fundamentals that scale your delivery needs",
-        image: blogImg,
+        image: blogImg5,
       },
       {
         slug: "future-of-ethiopian-logistics",
         category: "Logistics Insights",
         author: "Zemen Team",
         title: "Designing better delivery systems for long-term success",
-        image: blogImg,
+        image: blogImg6,
       },
     ],
     [],

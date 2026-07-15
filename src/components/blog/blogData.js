@@ -1,86 +1,93 @@
-import img from "../../assets/images/hero3.png";
+import img1 from "../../assets/blog/blog1.png";
+import img2 from "../../assets/blog/blog2.png";
+import img3 from "../../assets/blog/blog3.png";
+import img4 from "../../assets/blog/blog4.png";
+import img5 from "../../assets/blog/blog5.png";
+import img6 from "../../assets/blog/blog6.png";
+import img7 from "../../assets/blog/blog7.png";
+import img8 from "../../assets/blog/blog8.png";
 
 export const BLOG_POSTS = [
   {
-    slug: "solution-of-settle-tips",
-    title: "Solution Of settle tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "under-24-hour-delivery",
+    title: "How we guarantee intercity delivery in less than 24 hours",
+    category: "Logistics Solutions",
+    author: "Zemen Team",
+    image: img1,
   },
   {
-    slug: "perfect-quick-tips",
-    title: "Perfect quick tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "secure-package-handling",
+    title: "Best practices for packaging and securing valuable goods",
+    category: "Express Shipping",
+    author: "Zemen Team",
+    image: img2,
   },
   {
-    slug: "quick-settle-tips",
-    title: "The quick settle tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "document-delivery-guide",
+    title: "Ensuring secure and swift delivery for important business documents",
+    category: "Business Delivery",
+    author: "Zemen Team",
+    image: img3,
   },
   {
-    slug: "best-solution-tips",
-    title: "Best Solution tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "tracking-your-shipment",
+    title: "The importance of real-time parcel tracking in modern logistics",
+    category: "Technology",
+    author: "Zemen Team",
+    image: img4,
   },
   {
-    slug: "advantage-of-tips",
-    title: "Advantage Of tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "e-commerce-shipping-ethiopia",
+    title: "How reliable logistics can scale your e-commerce business in Ethiopia",
+    category: "Business Delivery",
+    author: "Zemen Team",
+    image: img5,
   },
   {
-    slug: "quick-settle-tips-2",
-    title: "The quick settle tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "reducing-transit-times",
+    title: "Behind the scenes: How we optimize routes to bypass delay",
+    category: "Logistics Solutions",
+    author: "Zemen Team",
+    image: img6,
   },
   {
-    slug: "liliput-settle-tips",
-    title: "Liliput settle tips of the new ages exist",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "affordable-shipping-methods",
+    title: "Tips for getting the most cost-effective rates for bulk shipping",
+    category: "Express Shipping",
+    author: "Zemen Team",
+    image: img7,
   },
   {
-    slug: "marketing-settle-tips",
-    title: "Marketing settle tips of the new Genwrate",
-    category: "Business Solution",
-    author: "David Dolean",
-    image: img,
+    slug: "future-of-ethiopian-logistics",
+    title: "Innovations shaping the future of courier services in East Africa",
+    category: "Technology",
+    author: "Zemen Team",
+    image: img8,
   },
 ];
 
 export const CATEGORIES = [
-  "Business Solution",
-  "Solution Model",
-  "More Business",
-  "Finbiz Solution",
-  "Consulting Business",
+  "Logistics Solutions",
+  "Express Shipping",
+  "Business Delivery",
+  "Technology",
+  "Company Updates",
 ];
 
 export const TAGS = [
-  "Services",
-  "Business",
-  "Growth",
-  "Finance",
-  "UI/UX Design",
-  "Solution",
+  "Courier",
+  "Delivery",
+  "Ethiopia",
   "Speed",
-  "Strategy",
-  "Technology",
+  "Security",
+  "Logistics",
+  "On-Time",
+  "Business",
+  "E-commerce",
 ];
 
 export const RECENT_POSTS = [
-  { date: "15 Jan, 2023", title: "We would love to share a similar experience", image: img },
-  { date: "15 Jan, 2023", title: "We would love to share a similar experience", image: img },
-  { date: "15 Jan, 2023", title: "We would love to share a similar experience", image: img },
+  { date: "15 Jul, 2026", title: "Optimizing our Addis Ababa hub for faster dispatch", image: img1 },
+  { date: "10 Jul, 2026", title: "Expanding our next-day intercity routes across Ethiopia", image: img2 },
+  { date: "05 Jul, 2026", title: "A step-by-step guide to preparing your package for transit", image: img3 },
 ];

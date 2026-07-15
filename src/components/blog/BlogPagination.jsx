@@ -20,7 +20,7 @@ function PageBtn({ active, children }) {
         "grid h-10 w-10 place-items-center rounded-xl text-sm font-bold",
         active
           ? "bg-[#210c81] text-white"
-          : "bg-white text-[#210c81]/70 shadow-[0_12px_40px_rgba(0,0,0,0.08)] hover:text-[#210c81]",
+          : "bg-white text-[#210c81]/70 shadow-[0_12px_40px_rgba(0,0,0,0.08)] cursor-pointer hover:text-[#210c81]",
       ].join(" ")}
     >
       {children}
