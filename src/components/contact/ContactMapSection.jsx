@@ -14,7 +14,7 @@ export default function ContactMapSection() {
         <div className="mt-16">
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d891.5404497557083!2d38.78521566953354!3d8.996313824048896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b850001076715%3A0x918e57ad4c72b3ce!2szemen%20express%20delivery!5e1!3m2!1sen!2set!4v1783590391686!5m2!1sen!2set"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.7265307646605!2d38.74447654463764!3d9.009644521768083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8500037197bf%3A0xf7874188ef2e3f87!2sZemen%20Express%20Delivery%20Mexico%20Branch!5e1!3m2!1sen!2set!4v1784187092498!5m2!1sen!2set"
             className="h-[520px] w-full"
             style={{ border: 0 }}
             allowFullScreen
